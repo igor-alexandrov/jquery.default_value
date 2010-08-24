@@ -1,0 +1,12 @@
+JQuery plugin for setting default values to text inputs
+
+*** here is your html ***
+<input type="text" id="search" default_value="From">
+
+*** here is JS ***
+$(document).ready(function()
+{   
+    $('input[type=text]').default_value();
+});
+
+*** that is all ***
